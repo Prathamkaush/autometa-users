@@ -29,3 +29,5 @@ If Next.js reports another server for this exact directory, reuse its printed UR
 press Ctrl+C in the original terminal before running npm run dev again. Do not delete
 .next/dev/lock while that server is alive. If you need a different host port, pass
 --port and update APP_ORIGIN in .env.local to match.
+
+fixing 

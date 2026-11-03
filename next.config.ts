@@ -1,7 +1,6 @@
 import type { NextConfig } from 'next';
-import path from 'node:path';
 const config: NextConfig = {
-  turbopack: { root: path.resolve(process.cwd(), '..') },
+  turbopack: { root: process.cwd() },
   async headers() {
     return [
       {
